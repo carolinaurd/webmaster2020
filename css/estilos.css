@@ -1,59 +1,50 @@
-*{margin: 0;padding: 0;}
+*{margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
 
-.header-logo{
-    width: 280px;
+
+.body{
+    background: linear-gradient(135deg, lightblue, white);
+}
+
+
+h1{
+    background: url('../img/logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    line-height: 2em;
+    overflow: hidden;
+    text-indent: 10em;
 }
 
 .navbar{
-    background-color:rgb(32, 155, 196);
-    text-align: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    margin-top: 10px;
-    font-size: 13px;
-    
-}
+    height: 100px;
+    background: white;
+    z-index: 10000;
+    box-shadow: 0px 0px 5px 0px black;
+    font-weight: bold;
+} 
 
-.menuPrincipal{
-    list-style-type: none;
-}
 
-.menuPrincipal li{
-    display: inline-block;
-}
 
-.menuPrincipal li a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: 5px;
-    transition-duration: 1s;
-}
+.destinos{
+   position: relative;
+   text-align: center;
+   background-color: rgb(255, 255, 255);
 
-.menuPrincipal li a:hover{
-    color: rgb(32, 155, 196);
-    background-color: white;
-    cursor: pointer;
 }
-
-.header{
-    background: green;
-    color: white;
-    padding: 1%;
-}
-
-/*.header2{
-    background: rgb(4, 97, 4);
-    height: 40px;
-}*/
 
 .portada{
     background: linear-gradient(rgb(170, 2, 170) rgb(58, 58, 218));
     /*height: 400px;*/
     /*margin-bottom: 5%;*/
 }
+
 /* Esta clase equivale a img-fluid de Boostrap*/
 .ajustarImg{
     width: 100%;
@@ -66,4 +57,5 @@
 .prefooter{
     height: 120px;
 }
+
 
