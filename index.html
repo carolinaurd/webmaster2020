@@ -21,47 +21,69 @@
     </head>
     <body>
 
-        <header class="container-fluid header1 p-3 ">
-            <div class="container">
-                <div class="logo">
-                    <h1>UTN</h1>
-                    <div id="logo">
-                        <img class="header-logo" src="img/logoavion.png" alt="logo">
-                    </div>
-                </div>
-            </div>
-        </header>
+        <!-- Menu de navegacion -->
 
-        <nav class="navbar">
-            <ul class="menuPrincipal">
-                <li>
-                    <a href="#" class="links">QUIENES SOMOS</a>
-                </li>
-                <li>
-                    <a href="#" class="links">SERVICIOS</a>
-                </li>
-                
-                <li>
-                    <a href="#" class="links">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
+                <header class="container-fluid header1 p-3 ">
+                    <nav class="navbar navbar-light navbar-expand-md">
+                        <h1>
+                           <a href="#" class="navbar-brand">Logo</a>
+                        </h1>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                         data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                          aria-label="Toggle navigation">
+                         icono del boton 
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home" class="nav-link">Home<a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#destinos" class="nav-link">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#nosotros" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contacto" class="nav-link">Contactenos</a>
+                        </li>
+                      </ul>
+                    </div>
+                    </nav>
+                  
+            
+                </header>
+            </div>
+        </div>
+
+        <!-- seccion 1 -->
+
+        <div class="destinos">
+            <h2>Destinos turisticos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Soluta, ad adipisci
+                  sequi dicta cumque repellendus dolorem 
+                  expedita magnam quos voluptas ab earum 
+                  ea suscipit doloribus temporibus natus fuga
+                  , molestias vero. Lorem ipsum, dolor sit amet 
+                  consectetur adipisicing elit. Ratione dolores soluta
+                  assumenda optio officia autem distinctio reprehenderi
+                  t est debitis, dolorem fuga quod tenetur illo doloribu
+                  s ex corrupti dicta numquam molestiae?</p>
+        </div>
         
+
+    
         <div class="container-fluid header2"></div>
         
         <div class="container-fluid portada mb-5 shadow">
             
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
-                <!-- Menu de indicadores / Indicators-->
-                <!-- lista ordenada 
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>-->
-
-                <!-- Contenido del Carousel -->
+                 <!-- Contenido del Carousel -->
                 <div class="carousel-inner">
 
                     <!-- Cada Slide o item del carousel -->
@@ -92,24 +114,6 @@
                       <img src="img/slide4.jpg" class="d-block w-100" alt="Slide 4">
                   </div>
 
-                  <!--<div class="carousel-item">
-                      <div class="row">
-                          <div class="col">
-                              <div class="img rounded">
-                                  <img src="img/paisaje1.jpg" alt="" class="img-fluid rounded">
-                              </div>
-                          </div>
-                          <div class="col">
-                              <div class="img rounded">
-                                  <img src="img/paisaje2.jpg" alt="" class="img-fluid rounded">
-                              </div>
-                          </div>
-                      </div>
-                  </div> -->
-
-
-
-                </div> <!-- cierra carousel-inner -->
                   
 
                 <!-- menu de controles o flechas / controls -->
@@ -125,7 +129,7 @@
               </div><!-- cierra carousel -->
         </div>
 
-        <!-- Contenido -->
+        <!-- seccion 2 -->
 
         <section class='container-fluid bg-light pt-5'>
             <div class="container">
@@ -195,31 +199,68 @@
                 </div>
             </div>
         </section>
-
-        <div class="container-fluid bg-dark prefooter mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <p>Logo</p>
-                        <p>Direccion</p>
-                        <p>Telefono</p>
-                        <p>redes</p>
-                    </div>
     
-                    <div class="col">
-                        <div class="mapa">
-                            <p>incrustar mapa</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                   <!-- seccion 3 --> 
         </div>
+                   <!-- Mapa y formulario-->
+
+        <section id="sec_4" class="container-fluid row m-0 justify-content-between"> 
+
+            <div id="contacto" class=" col-sm-12 col-md-4 mt-5 mb-5 text-center">
+              <h2>Ubicacion</h2>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.2730124398117!2d-61.40463447766974!3d-32.81153047426928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9de6c26cc2fb7%3A0x6822240a60cad7fb!2sAlberdi%20710%2C%20Ca%C3%B1ada%20de%20Gomez%2C%20Santa%20Fe!5e0!3m2!1sen!2sar!4v1600978283620!5m2!1sen!2sar" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>"
+            </div>
+      
+            <div class="col-sm-12 col-md-6 m-sm-0 m-md-5 mb-2">
+              <form netlify action="" method="POST" id="form-contacto" class="row justify-content-between">
+      
+                <div class="col-6">
+                        <input type="text" required class="form-control" name="nombre" placeholder="Nombre">
+                </div>
+      
+                <div class="col-6">
+                        <input type="text" required class="form-control" name="apellido" placeholder="Apellido">
+                </div>
+      
+                <div class="col-10">               
+                        <input type="text" class="form-control mt-3 mb-3" required name="email" id="email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" placeholder="Email" >         
+                </div>	
+      
+                <div class="col-6">
+                        <input type="text" class="form-control mb-3" required name="telefono" placeholder="Telefono">
+                </div>  
+      
+                <div class="col-12 mb-5">
+                    <label>
+                        <textarea name="mensaje" id="descripcion" class="form-control" rows="4" cols="100" placeholder="..."></textarea>
+                    </label>
+                </div>
+      
+                <div class="col-6 col-md-5 mb-3 m-auto">
+                    <input type="submit" class="form-control" id="enviar" value="Contactanos">
+               </div>
+      
+            </form>	
+          </div>
+      
+      
+          </section>
+
+        <!-- footer -->
         <footer class='container-fluid bg-info text-white p-2'>
-            <p class="text-center" >&copy; 2020 - derechos reservados</p>
+            <div class="container socialContainer">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="container derechos">
+               <p>&copy; 2020 - Todos los derechos reservados.</p> 
+            </div>
         </footer>
 
 
-
+<!-- JS boostrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    </body>
