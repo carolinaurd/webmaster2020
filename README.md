@@ -1,4 +1,4 @@
-# webmaster2020
+# proyectowebmaster
 Repositorio del curso Professional Webmaster
 
 Espacio de slack http://utnwebmaster.slack.com
